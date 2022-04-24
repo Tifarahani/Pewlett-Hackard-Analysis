@@ -23,7 +23,17 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 <p align="center">  
 <i>Figure 1: ERD</i>
 </p>
-
+**1.	The list of retiring employees**
+-	The table includes employee number, first name, last name, title, from-date and to-date.
+-	The query returns 133,776 rows. 
+-	The table displays a list of employees who is going to retire in the next few years.
+-	The list is long and extensive, yet at-a-glance analysis gives us some insights about the query. Some employees appear more than once due to change of title during their career at Pewlett-Hackard.
+<p align="center">  
+<img src="Graphics/EmployeesTitleDuplicates.PNG" width="50%" height="50%">
+</p>
+<p align="center">  
+<i>Figure 2: Table with the employee’s data that are retirement-ready</i>
+</p>
 
 ## Deliverable 2: The Employees Eligible for the Mentorship Program
 
