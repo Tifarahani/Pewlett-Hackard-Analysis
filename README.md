@@ -25,7 +25,7 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 </p>
 
 ## Deliverable 1:  The Number of Retiring Employees by Title
-**1.	The list of retiring employees**
+**	The list of retiring employees**
 -	The table includes employee number, first name, last name, title, from-date and to-date.
 -	The query returns 133,776 rows. 
 -	The table displays a list of employees who is going to retire in the next few years.
@@ -37,7 +37,7 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 <i>Figure 2: Table with the employee’s data that are retirement-ready</i>
 </p>
  
-**2.	The list of retiring employees without duplicates**
+**The list of retiring employees without duplicates**
 
 The query has one drawback. It contains all the titles that employees acquired while working at Pewlett-Hackard over the years. This resulted in duplicates, some employees appear two times or more; therefore, the number of retiring employees (133,776) is huge and incorrect.
 
@@ -52,7 +52,7 @@ The query has one drawback. It contains all the titles that employees acquired w
 <i>Figure 3: Table with the employee’s data that are retirement-ready without duplicates</i>
 </p>
 
-**3.	The number of retiring employees grouped by title**
+**The number of retiring employees grouped by title**
 -	The table includes employees’ titles and their sum. 
 -	The query returns a cohesive table with 7 rows.
 -	From this table we can quickly see how many employees with certain title will retire in the next few years.
@@ -65,7 +65,7 @@ The query has one drawback. It contains all the titles that employees acquired w
 </p>
 
 ## Deliverable 2: The Employees Eligible for the Mentorship Program
-**4.	The employees eligible for the mentorship program**
+**The employees eligible for the mentorship program**
 -	The table contains employee number, first name, last name, birth date, from date, to date and title. 
 -	The query returns 1,549 rows.
 - The table displays a list of employees who is eligible for the mentorship program.
@@ -79,13 +79,6 @@ The query has one drawback. It contains all the titles that employees acquired w
 
 ## Summary
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
-
- 1.           
- 2. 
-
-## Summary
-
 As the company is preparing for the upcoming "silver tsunami" a good planning is essential, especially when such a large number of the employees is involved. Reports above give a good insight about the number of the employees that are about to retire and hold specific title. However, I believe that additional break down per department will be beneficial for the company. In this case headquarters can see what to expect in each department separately. In order to retrieve department name information, I merged additional table `departments` into existing table `retirement_titles` with the `inner join`. After removing the duplicates, with `DISTINCT ON` command, the table was ready to be used for additional queries.
 <p align="center">  
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_QualifiedStaff.png" width="60%" height="60%">
@@ -93,8 +86,6 @@ As the company is preparing for the upcoming "silver tsunami" a good planning is
 <p align="center">  
 <i>Figure 6: Table with retirement-ready employee’s data with added department name</i>
 </p>
-
-:exclamation: Please see full report [here](Data/) - **see 05_Extra_unique_titles_department.csv** and SQL Queries [here](Queries/Employee_Database_challenge.sql) - **see Deliverable 3**.
 
 ***How many roles will need to be filled as the "silver tsunami" begins to make an impact?***<br>
 The table **retirement titles** contains all the information about the employees that are about to retire in the next four years. To get the number of positions that will be open in next four years I ran additional query that breaks down how many staff will retire per department. Since every department will be affected in some way this query gives more precise numbers what each department can expect and how many roles will need to be filled.
@@ -106,7 +97,6 @@ The table **retirement titles** contains all the information about the employees
 <i>Figure 7: Sum of retirement-ready employees group by title and department.</i> 
 </p>
 
-
 ***Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?***<br>
 We can run some extra query with additional filter, that returns only employees on higher positions, to ensure that are enough qualified staff for training at Pewlett-Hackard.  
 
@@ -117,13 +107,13 @@ We can run some extra query with additional filter, that returns only employees 
 <i>Figure 8: Sum of qualified, retirement-ready employees group by title and department</i>
 </p>
 
-The purpose of the new analysis is well defined. 
-Results:
 
 There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-*
-*
-*
-*
+1.
+2.
+3.
+4.
+
+
 
 
