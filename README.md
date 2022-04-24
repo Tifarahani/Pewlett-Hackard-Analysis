@@ -12,9 +12,17 @@ The purpose of this analysis is to prepare Pewlett-Hackard, a company with sever
 - **QuickDBD** 
 - **PostreSQL**  
 - **pgAdmin**
+---
 
 ## Deliverable 1:The Number of Retiring Employees by Title
+An entity-relationship diagram (ERD) is crucial to creating a good database design. It is used as a high-level logical data model, which is useful in developing a conceptual design for databases.
 
+<p align="center">  
+<img src="Queries/ERD.png" width="40%" height="40%">
+</p>
+<p align="center">  
+<i>Figure 1: ERD</i>
+</p>
 
 
 ## Deliverable 2: The Employees Eligible for the Mentorship Program
