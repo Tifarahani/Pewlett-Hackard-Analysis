@@ -18,7 +18,7 @@ The purpose of this analysis is to prepare Pewlett-Hackard, a company with sever
 An entity-relationship diagram (ERD) is crucial to creating a good database design. It is used as a high-level logical data model, which is useful in developing a conceptual design for databases.
 
 <p align="center">  
-![EDR.png](https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/ERD.png" width="40%" height="40%")
+![EDR.png] (https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/ERD.png)
 </p>
 <p align="center">  
 <i>Figure 1: ERD</i>
