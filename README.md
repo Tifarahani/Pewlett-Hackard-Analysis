@@ -19,6 +19,7 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 
 <p align="center">  
 ![EDR.png] (https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/ERD.png)
+ <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/ERD.png" width="350" title="hover text">
 </p>
 <p align="center">  
 <i>Figure 1: ERD</i>
