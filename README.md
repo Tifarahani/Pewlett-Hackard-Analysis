@@ -76,10 +76,6 @@ The query has one drawback. It contains all the titles that employees acquired w
 <i>Figure 5: Table with the employee grouped by title</i>
 </p>
 
-
-## Summary
-
-As the company is preparing for the upcoming "silver tsunami" a good planning is essential, especially when such a large number of the employees is involved. Reports above give a good insight about the number of the employees that are about to retire and hold specific title. However, I believe that additional break down per department will be beneficial for the company. In this case headquarters can see what to expect in each department separately. In order to retrieve department name information, I merged additional table `departments` into existing table `retirement_titles` with the `inner join`. After removing the duplicates, with `DISTINCT ON` command, the table was ready to be used for additional queries.
 <p align="center">  
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_QualifiedStaff.png" width="60%" height="60%">
 </p>
