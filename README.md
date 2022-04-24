@@ -7,9 +7,7 @@ The purpose of this analysis is to prepare Pewlett-Hackard, a company with sever
 3.	Identify the employees eligible for participation in the mentorship program.
 4.	Determine the number of roles-to-fill grouped by title and department.
 5.	Determine the number of qualified, retirement-ready employees to mentor the next generation grouped by title and department.
-6.
-
-
+--- 
 ### Resources 
 - **QuickDBD** 
 - **PostreSQL**  
