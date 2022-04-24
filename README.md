@@ -1,13 +1,26 @@
 # Pewlett-Hackard-Analysis.
 ## Overview the analysis
+The purpose of this analysis is to prepare Pewlett-Hackard, a company with several thousand employees, for the upcoming “silver tsunami”. A large number of employees will begin retiring at a rapid rate in the next few years and the company wants to be prepared with the retirement packages, open positions and employees’ training. In order to ensure a smooth transition this analysis focuses on the following: 
 
+1.	Identify the retiring employees by their title.
+2.	Determine the sum of retiring employees grouped by title.
+3.	Identify the employees eligible for participation in the mentorship program.
+4.	Determine the number of roles-to-fill grouped by title and department.
+5.	Determine the number of qualified, retirement-ready employees to mentor the next generation grouped by title and department.
+6.
+
+
+### Resources 
+- **QuickDBD** 
+- **PostreSQL**  
+- **pgAdmin**
 
 ## Deliverable 1:The Number of Retiring Employees by Title
-* Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. we want to include only current employees in our analysis, be sure to exclude those employees who have already left the company.
+
 
 
 ## Deliverable 2: The Employees Eligible for the Mentorship Program
-* Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
+
 
 
 
