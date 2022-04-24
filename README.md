@@ -25,6 +25,6 @@ There is a bulleted list with four major points from the two analysis deliverabl
 ## Summary
 
 The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
- 1.
-             
+
+ 1.           
  2. 
