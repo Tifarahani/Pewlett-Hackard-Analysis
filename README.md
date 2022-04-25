@@ -83,7 +83,18 @@ The query has one drawback. It contains all the titles that employees acquired w
 <i>Figure 6: Table with retirement-ready employee’s data with added department name</i>
 </p>
 
-***How many roles will need to be filled as the "silver tsunami" begins to make an impact?***<br>
+## Summary
+
+knowing if the company has enough human resources in comparison with the retirement work force data,a good planning is essential, especially when such a large number of the employees is involved. Reports above give a good insight about the number of the employees that are about to retire and hold specific title. However, I believe that additional break down per department will be beneficial for the company. In this case headquarters can see what to expect in each department separately. In order to retrieve department name information.
+* Merging additional table `departments` into existing table `retirement_titles` with the `inner join`. After removing the duplicates, with `DISTINCT ON` command, the table was ready to be used for additional queries.
+<p align="center">  
+<img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_TitlesAndDepartment.png" width="60%" height="60%">
+</p>
+<p align="center">  
+<i>Figure 6: Table with retirement-ready employee’s data with added department name</i>
+</p>
+
+* How many roles will need to be filled as the "silver tsunami" begins to make an impact?***<br>
 The table **retirement titles** contains all the information about the employees that are about to retire in the next four years. To get the number of positions that will be open in next four years I ran additional query that breaks down how many staff will retire per department. Since every department will be affected in some way this query gives more precise numbers what each department can expect and how many roles will need to be filled.
 
 <p align="center">  
@@ -92,23 +103,6 @@ The table **retirement titles** contains all the information about the employees
 <p align="center">  
 <i>Figure 7: Sum of retirement-ready employees group by title and department.</i> 
 </p>
-
-***Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?***<br>
-We can run some extra query with additional filter, that returns only employees on higher positions, to ensure that are enough qualified staff for training at Pewlett-Hackard.  
-
-<p align="center">  
-<img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_TitlesAndDepartment.png" width="40%" height="40%">
-</p>
-<p align="center">  
-<i>Figure 8: Sum of qualified, retirement-ready employees group by title and department</i>
-</p>
-
-
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-1.
-2.
-3.
-4.
 
 
 
