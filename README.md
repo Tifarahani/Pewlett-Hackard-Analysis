@@ -76,13 +76,6 @@ The query has one drawback. It contains all the titles that employees acquired w
 <i>Figure 5: Table with the employee grouped by title</i>
 </p>
 
-<p align="center">  
-<img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_QualifiedStaff.png" width="60%" height="60%">
-</p>
-<p align="center">  
-<i>Figure 6: Table with retirement-ready employee’s data with added department name</i>
-</p>
-
 ## Summary
 
 * knowing if the company has enough human resources in comparison with the retirement work force data,a good planning is essential, especially when such a large number of the employees is involved. Reports show the number of the employees that are about to retire and hold specific title. 
