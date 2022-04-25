@@ -36,7 +36,7 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/EmployeesTitleDuplicates.png" width="50%" height="50%">
 </p>
 <p align="center">  
-<i>Figure 2: Table with the employee’s data that are retirement-ready</i>
+<i>Figure 2: Employee’s data who are ready to retire</i>
 </p>
  
 **The list of retiring employees without any duplicates**
@@ -50,7 +50,7 @@ As this list contains all the titles that employees acquired while working at Pe
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/EmployeesTitleNODuplicates.png" width="50%" height="50%">
 </p>
 <p align="center">  
-<i>Figure 3: Table with the employee’s data that are retirement-ready without duplicates</i>
+<i>Figure 3: Employee’s data who are ready to retire without duplicates</i>
 </p>
 
 **The number of retiring employees grouped by title**
@@ -62,7 +62,7 @@ As this list contains all the titles that employees acquired while working at Pe
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/EmployeesTitleSum.png" width="30%" height="30%">
 </p>
 <p align="center">  
-<i>Figure 4: Table with the employee grouped by title</i>
+<i>Figure 4:Employee grouped by title</i>
 </p>
 
 ## Deliverable 2: The Employees Eligible for the Mentorship Program
@@ -86,7 +86,7 @@ As this list contains all the titles that employees acquired while working at Pe
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_TitlesAndDepartment.png" width="60%" height="60%">
 </p>
 <p align="center">  
-<i>Figure 6: Table with retirement-ready employee’s data with added department name</i>
+<i>Figure 6: Retirement-ready employee’s data with added department name</i>
 </p>
 
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?***<br>
