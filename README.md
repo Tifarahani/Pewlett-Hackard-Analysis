@@ -25,7 +25,7 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 </p>
 
 ## Deliverable 1:  The Number of Retiring Employees by Title
-* The list of retiring employees
+ -The list of retiring employees
  -	The table includes employee number, first name, last name, title, from-date and to-date.
  -	The query returns 133,776 rows. 
  -	The table displays a list of employees who is going to retire in the next few years.
