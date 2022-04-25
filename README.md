@@ -99,7 +99,7 @@ The table **retirement titles** contains all the information about the employees
 </p>
 
 ***Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard employees?***<br>
-To ensure that are enough qualified staff for training at Pewlett-Hackard I ran a query with additional filter, that returns only employees on higher positions, assuming that those are qualified as mentors. With the command ` WHERE ut.title IN ('Senior Engineer', 'Senior Staff', 'Technique Leader', 'Manager') ` the results include only staff on higher positions. From the table we can see how many qualified employees are in each department to train next generation. 
+* To ensure that are enough qualified staff for training at Pewlett-Hackard I ran a query with additional filter, that returns only employees on higher positions, assuming that those are qualified as mentors. With the command ` WHERE ut.title IN ('Senior Engineer', 'Senior Staff', 'Technique Leader', 'Manager') ` the results include only staff on higher positions. From the table we can see how many qualified employees are in each department to train next generation. 
 
 <p align="center">  
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_QualifiedStaff.png" width="40%" height="40%">
