@@ -1,6 +1,8 @@
-# Pewlett-Hackard-Analysis.
-## Overview the analysis
-The purpose of this analysis is to prepare Pewlett-Hackard, a company with several thousand employees, for the upcoming “silver tsunami”. A large number of employees will begin retiring at a rapid rate in the next few years and the company wants to be prepared with the retirement packages, open positions and employees’ training. In order to ensure a smooth transition this analysis focuses on the following: 
+# Pewlett-Hackard-Analysis
+## Overview
+
+The purpose of this analysis is to prepare Pewlett-Hackard, a company with several thousand employees, for the upcoming “silver tsunami”.
+A large number of employees will begin retiring at a rapid rate in the next few years and the company wants to be prepared with the retirement packages, open positions and employees’ training. In order to ensure a smooth transition this analysis focuses on the following: 
 
 1.	Identify the retiring employees by their title.
 2.	Determine the sum of retiring employees grouped by title.
@@ -37,9 +39,8 @@ An entity-relationship diagram (ERD) is crucial to creating a good database desi
 <i>Figure 2: Table with the employee’s data that are retirement-ready</i>
 </p>
  
-**The list of retiring employees without duplicates**
-
-The query has one drawback. It contains all the titles that employees acquired while working at Pewlett-Hackard over the years. This resulted in duplicates, some employees appear two times or more; therefore, the number of retiring employees (133,776) is huge and incorrect.
+**The list of retiring employees without any duplicates**
+As this list contains all the titles that employees acquired while working at Pewlett-Hackard over the years,which resulted in duplicates, some employees appear two times or more; therefore, the number of retiring employees (133,776) is huge and incorrect.
 
 -	The table includes employee number, first name, last name, title, from-date and to-date.
 -	The query returns 90,398 rows. 
