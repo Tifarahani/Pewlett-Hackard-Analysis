@@ -85,8 +85,9 @@ The query has one drawback. It contains all the titles that employees acquired w
 
 ## Summary
 
-knowing if the company has enough human resources in comparison with the retirement work force data,a good planning is essential, especially when such a large number of the employees is involved. Reports above give a good insight about the number of the employees that are about to retire and hold specific title. However, I believe that additional break down per department will be beneficial for the company. In this case headquarters can see what to expect in each department separately. In order to retrieve department name information.
-* Merging additional table `departments` into existing table `retirement_titles` with the `inner join`. After removing the duplicates, with `DISTINCT ON` command, the table was ready to be used for additional queries.
+* knowing if the company has enough human resources in comparison with the retirement work force data,a good planning is essential, especially when such a large number of the employees is involved. Reports show the number of the employees that are about to retire and hold specific title. 
+* Retrieve the department name information.
+* Merging additional table `departments` into existing table `retirement_titles` with the `inner join`. After removing the duplicates, with `DISTINCT ON` command, the 
 <p align="center">  
 <img src="https://github.com/Tifarahani/Pewlett-Hackard-Analysis/blob/main/Table%20results/Extra_TitlesAndDepartment.png" width="60%" height="60%">
 </p>
